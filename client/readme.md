@@ -7,5 +7,5 @@ go run server/main.go
 ## Use client test
 
 ```
-go run server/client.go
+go run client/main.go
 ```
