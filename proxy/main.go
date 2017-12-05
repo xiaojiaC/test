@@ -8,7 +8,7 @@ import (
 	"path"
 	"strings"
 
-	gw "git.augmentum.com.cn/test/proto/example"
+	gw "github.com/test/proto/example"
 
 	"github.com/golang/glog"
 	"github.com/grpc-ecosystem/grpc-gateway/runtime"
@@ -20,7 +20,7 @@ var (
 	echoEndpoint = flag.String("echo_endpoint", "localhost:50051", "endpoint of GreeterService")
 
 	goSrcPath   = path.Join(os.Getenv("GOPATH"), "src")
-	projectPath = path.Join(goSrcPath, "git.augmentum.com.cn", "test")
+	projectPath = path.Join(goSrcPath, "github.com", "test")
 	swaggerPath = path.Join(projectPath, "proto", "example")
 
 	swaggerDir = flag.String("swagger_dir", swaggerPath, "path to the directory which contains swagger definitions")

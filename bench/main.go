@@ -13,7 +13,7 @@ import (
 	"os"
 	"time"
 
-	"git.augmentum.com.cn/test/proto/example"
+	"github.com/test/proto/example"
 
 	"golang.org/x/net/context"
 	"golang.org/x/net/http2"

@@ -4,7 +4,7 @@ import (
 	"log"
 	"net"
 
-	pb "git.augmentum.com.cn/test/proto/example"
+	pb "github.com/test/proto/example"
 
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
